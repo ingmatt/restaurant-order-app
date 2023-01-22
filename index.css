@@ -1,0 +1,206 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+main {
+    margin: auto;
+    margin-top: 10px;
+    width: 600px;
+    height: 270px;
+}
+
+img {
+    width: 600px;
+    height: 270px;
+}
+
+.light-font{ 
+    color: #8B8B8B;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    border: #8B8B8B solid 1px;
+    
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.menu-pic {
+    font-weight: 400;
+    font-size: 75px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.add-btn {
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    color: gold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 25px ;
+    background-color: red;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    line-height: 25px ;
+    background-color: gold;
+    cursor: pointer;
+}
+
+.order-summary{
+    border-top: black solid 5px;
+}
+
+.order-feed{
+    display: contents;
+    padding: 0px 25px 10px 25px;
+}
+
+.hidden{
+    display: none;
+}
+
+.itemised {
+    display: flex;
+    justify-content: space-between;
+}
+.purchase-btn {
+    text-align: center;
+    background-color: red;
+    border: none;
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: 10px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.purchase-btn:hover {
+    text-align: center;
+    background-color: gold;
+    border: none;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: 10px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.main-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ordered-price{
+    display: inline-block;
+}
+
+.remove{
+    cursor: pointer;
+}
+
+.remove:hover{
+    color: red;
+}
+
+.enter-card-details{
+    position: fixed;
+    width: 520px;
+    height: 520px;
+    left: 450px;
+    top: 100px;
+    padding: 15px;
+    background-color: whitesmoke;
+    text-align: center;
+    border: black solid 2px;
+}
+
+input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 475px;
+    height: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.complete-purchase-btn {
+    text-align: center;
+    background-color: red;
+    border: none;
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 50px;
+}
+
+.complete-purchase-btn:hover {
+    text-align: center;
+    background-color: gold;
+    border: none;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 14px 40px;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.confirmation-message{
+    background-color: lightgreen;
+    color: green;
+    text-align: center;
+    padding: 40px;
+}

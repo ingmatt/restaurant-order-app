@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+        <meta charset=”utf-8″/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+        <header>
+            <img src="images/banner.png" alt="Website banner">
+        </header>
+        <div id="menu-feed">
+            <!--menu goes here!-->  
+        </div>
+        <div id="order-feed" class="hidden">
+            <!--order goes here-->
+        </div>
+        <div id="checkout-box" class="hidden">
+            <!--checkout for card details-->
+            <div class="enter-card-details">
+                <h2>Enter Card Details</h2>
+                <form id="form">
+                    <input type="text" placeholder="Enter your Name" name="name" required />
+                    <br>
+                    <input type="text" placeholder="Enter your Card Number" name="card" required />
+                    <br>
+                    <input type="text" placeholder="Enter CVV" name="cvv" required />
+                    <br>
+                    <button id="confirm-pay" type="submit" data-pay="payment" class="complete-purchase-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+        <div id="confirmation" class="confirmation hidden">
+            <div class="confirmation-message">
+                <h2>Thanks! Your order is on the way!</h2>
+            </div>
+        </div>
+
+        </main>
+
+	<script src="index.js" type="module"></script>
+    </body>
+
+</html>
+
